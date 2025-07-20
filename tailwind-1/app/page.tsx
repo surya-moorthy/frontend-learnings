@@ -1,6 +1,6 @@
-import Container from "@/component/Container";
-import Hero from "@/component/Hero";
-import { Navbar } from "@/component/navbar";
+import Container from "@/components/series/Container";
+import Hero from "@/components/series/Hero";
+import { Navbar } from "@/components/series/navbar";
 
 export default function Home() {
   return (
