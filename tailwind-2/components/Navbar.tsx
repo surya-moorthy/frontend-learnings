@@ -3,7 +3,7 @@ import Logo from './Logo'
 
 export default function Navbar() {
   return (
-    <div className='max-w-full flex flex-row justify-around items-center border-b-1 h-12 px-10'>
+    <div  className='fixed top-0 left-0 right-0 z-50 flex flex-row justify-around items-center border-b border-neutral-200 h-12 px-10 bg-white backdrop-blur-md'>
         <Logo/>
         <div className='flex justify-around items-center gap-4'>
               <button className='outline-0 text-md text-stone-600 font-bold px-2.5 py-0.5 rounded-lg hover:bg-neutral-100 cursor-pointer '>
