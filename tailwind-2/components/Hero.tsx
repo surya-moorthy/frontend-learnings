@@ -1,3 +1,5 @@
+import { ArrowButton } from "./ArrowButton";
+
 export default function Hero() {
     return (
         <div className="hero-section flex flex-col justify-center items-center m-auto mt-10 max-w-2xl">
@@ -18,10 +20,7 @@ export default function Hero() {
                 <button className="text-lg rounded-xl bg-neutral-950 font-semibold font-poppins px-5.5 py-2 shadow-md">
                     Get Started 
                 </button>
-                <div className="flex items-center justify-center gap-0 hover:gap-1 transition-all duration-250">
-                     <span className="text-orange-500 text-sm font-bold">Read Docs</span> 
-                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right-icon lucide-arrow-right text-orange-500"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                </div>
+               <ArrowButton title={"Read docs"}/>
             </div>
         </div>
     )
