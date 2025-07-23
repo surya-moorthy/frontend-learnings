@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Sliding from "@/components/Sliding";
 import Designer from "./designers";
 import Developers from "./developers";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
        <Designer/>
        <Developers/>
       </div>
+      <Footer/>
      </div>
   );
 }
