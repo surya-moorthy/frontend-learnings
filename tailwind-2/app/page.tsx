@@ -6,6 +6,7 @@ import Sliding from "@/components/Sliding";
 import Designer from "./designers";
 import Developers from "./developers";
 import Footer from "@/components/Footer";
+import Marketers from "./marketers";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         </div>
        <Designer/>
        <Developers/>
+       <Marketers/>
       </div>
       <Footer/>
      </div>

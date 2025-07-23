@@ -14,12 +14,11 @@ export const columns: Column[] = [
   { title: "Connect", items: ["Linkedin", "X (Twitter)", "Threads", "Contact"] }
 ];
 
-
 export default function Footer() {
     return (
         <footer className="max-w-screen flex justify-center items-center border-t border-t-neutral-300 border-b-2 border-b-orange-500 mt-10">
               
-              <div className="flex flex-col w-[1250px]">
+              <div className="flex flex-col w-[1500px]">
               <div className="flex justify-between p-8">
                  <div className="w-[500px] flex flex-col justify-between items-start">
                     <svg width="30" height="30" viewBox="0 0 98 85" fill="none" xmlns="http://cleawww.w3.org/2000/svg">
@@ -27,7 +26,7 @@ export default function Footer() {
                     </svg>
                     <Link
                     href="#"
-                    className="inline-block p-3 text-neutral-900 text-sm font-semibold bg-neutral-100 rounded-xl whitespace-nowrap"
+                    className="inline-block p-2 text-neutral-900 text-[13px] font-semibold bg-neutral-100 rounded-xl whitespace-nowrap"
                     >
                     All Systems Operational
                     </Link>
