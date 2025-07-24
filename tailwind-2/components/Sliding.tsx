@@ -20,9 +20,9 @@ const brands: Brand[] = [
 
 export default function Sliding() {
   return (
-    <div className="     overflow-hidden w-full mb-10">
-         <div className="absolute left-0 top-0 w-32 h-full z-10 pointer-events-none bg-gradient-to-r from-white to-transparent" />
-         <div className="absolute right-0 top-0 w-32 h-full z-10 pointer-events-none bg-gradient-to-l from-white to-transparent" />
+    <div className="overflow-hidden w-full mb-10">
+         <div className="absolute left-0 top-0 w-2xl h-full z-10 pointer-events-none bg-gradient-to-r from-neutral-50 to-transparent" />
+         <div className="absolute right-0 top-0 w-2xl h-full z-10 pointer-events-none bg-gradient-to-l border-none from-neutral-50 to-transparent" />
              
       <div className="flex w-max animate-infinite-scroll gap-x-10 px-4">
         {[...brands, ...brands].map((brand, index) => (

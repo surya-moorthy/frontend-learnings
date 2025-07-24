@@ -43,7 +43,7 @@ const steps = [
 
 const WorkflowUI = () => {
   return (
-    <div className="relative bg-[#fdfdfc] py-16 px-6 ">
+    <div className="relative bg-[#f8fafc] py-16 px-6 ">
       {/* Top connector line */}
       <div className="absolute top-[88px] left-0 w-full flex justify-center z-0">
         <div className="w-[75%] h-[2px] bg-neutral-200 rounded-full opacity-60" />
@@ -66,7 +66,7 @@ const WorkflowUI = () => {
               {step.items.map((item, i) => (
                 <div
                   key={i}
-                  className="bg-neutral-100 text-sm font-medium text-neutral-800 px-4 py-2 rounded-xl shadow-sm"
+                  className="bg-[#e4e4e7] text-sm font-medium text-neutral-800 px-4 py-2 rounded-xl shadow-sm"
                 >
                   {item}
                 </div>
