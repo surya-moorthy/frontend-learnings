@@ -5,3 +5,23 @@
   width: 100%;
   height: 100%;
 }
+
+@keyframes boxshadow {
+  0% {
+    box-shadow: 0 0 5px #f9f9f9;
+  }
+  50% {
+    box-shadow: 0 0 20px #22c55e;
+  }
+  100% {
+    box-shadow: 0 0 5px #22c55e;
+  }
+}
+
+.glowing-box {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  border-radius: 20px;
+  animation: boxshadow 2s infinite ease-in-out;
+}

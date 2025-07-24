@@ -1,11 +1,11 @@
 
 import './App.css'
-import AnimatedButton from './components/AnimatedButton'
+import AnimatedBox from './components/AnimatedBox'
 
 function App() {
   return (
-    <div>
-       <AnimatedButton/>
+    <div className='w-screen h-screen bg-neutral-900 flex justify-center items-center'>
+       <AnimatedBox/>
     </div>
   )
 }
