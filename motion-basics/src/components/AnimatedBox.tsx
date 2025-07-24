@@ -13,11 +13,14 @@ export default function AnimatedBox() {
     setEase(ease);
     setRotated((r) => !r); // toggle value to force animation
     controls.start({
-      rotate: rotated ? 0 : 45,
+      rotate: rotated ? 0 : 360,
       scale: rotated ? 1 : 1.5,
       transition: {
-        duration: 1,
+        type: "decay",
+        duration: 2,
         ease: ease,
+        repeat: Infinity,
+        delay : 0.5
       },
     });
   };   
