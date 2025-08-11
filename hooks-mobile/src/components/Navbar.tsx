@@ -10,7 +10,7 @@ export default function Navbar() {
     if (stored === "yes") setLoggedIn(true);
   }, [setLoggedIn]);
 
-  // Persist auth state to localStorage
+
   useEffect(() => {
     localStorage.setItem("loggedIn", loggedIn ? "yes" : "no");
   }, [loggedIn]);
