@@ -9,3 +9,10 @@ export type cartProductType = {
     product : Product,
     items   : number
 }
+
+export type Id = string | number;
+
+export type column = {
+    id : Id,
+    title : string
+}
